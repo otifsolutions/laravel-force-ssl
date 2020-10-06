@@ -1,11 +1,11 @@
 <?php
 
-namespace OTIFSolutions\Forcessl;
+namespace OTIFSolutions\ForceSSL;
 
-use OTIFSolutions\ForceSsl\Http\Middleware\ForceSsl;
+use OTIFSolutions\ForceSSL\Http\Middleware\ForceSSL;
 use Illuminate\Support\ServiceProvider;
 
-class ForceSslServiceProvider extends ServiceProvider
+class ForceSSLServiceProvider extends ServiceProvider
 {
 
 
@@ -14,7 +14,7 @@ class ForceSslServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->app['router']->pushMiddlewareToGroup('web',ForceSsl::class);
+        $this->app['router']->pushMiddlewareToGroup('web',ForceSSL::class);
 
     }
     /**

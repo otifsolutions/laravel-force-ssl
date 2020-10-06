@@ -1,12 +1,11 @@
 <?php
 
-namespace OTIFSolutions\Forcessl\Http\Middleware;
-
+namespace OTIFSolutions\ForceSSL\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
 
-class ForceSsl
+class ForceSSL
 {
     /**
      * Handle an incoming request.

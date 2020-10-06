@@ -1,24 +1,24 @@
 {
-    "name": "OTIFSolution/forceSsl",
+    "name": "otifsolutions/laravel-forcessl",
     "description": "this package will make the routes or url to work with ssl",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "OTIFSolutions",
-            "email": "OTIFSolutions.com"
+            "name": "OTIF Solutions",
+            "email": "contact@otif-solutions.com"
         }
     ],
     "autoload": {
     "psr-4": {
-        "OTIFSolutions\\ForceSsl\\": "src/",
-        "OTIFSolutions\\ForceSsl\\Middleware": "src/Http/Middleware/ForceSsl"
+        "OTIFSolutions\\ForceSSL\\": "src/",
+        "OTIFSolutions\\ForceSSL\\Middleware": "src/Http/Middleware/ForceSSL"
     }
 },
     "extra": {
         "laravel": {
             "providers": [
-                "OTIFSolutions\\ForceSsl\\ForceSslServiceProvider"
+                "OTIFSolutions\\ForceSSL\\ForceSSLServiceProvider"
             ]
         }
     },

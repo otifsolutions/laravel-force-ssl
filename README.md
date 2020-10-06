@@ -13,13 +13,13 @@ Install via the composer
 Either run the following command in the root directory of your project:
 
 ```
-composer require otifsolutions/laravel-force-ssl
+composer require otifsolutions/laravel-forcessl
 ```
 ### One more step
 
-add this line in your config\app.php
+add this line in your .env file to enable forced ssl
 ```
-OTIFSolutions\ForceSsl\ForceSslServiceProvider::class,
+FORCE_SSL = true
 ```
 
 ### Details 
