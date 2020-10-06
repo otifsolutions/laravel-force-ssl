@@ -15,6 +15,12 @@ Either run the following command in the root directory of your project:
 ```
 composer require otifsolutions/laravel-force-ssl
 ```
+### One more step
+
+add this line in your config\app.php
+```
+OTIFSolutions\ForceSsl\ForceSslServiceProvider::class,
+```
 
 ### Details 
 
