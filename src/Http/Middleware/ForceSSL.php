@@ -16,7 +16,7 @@ class ForceSSL
      */
     public function handle(Request $request, Closure $next)
     {
-        if (!$request->secure() && env('FORCE_SSL',true) == true )
+        if (!$request->secure() && env('FORCE_SSL',false) == true )
         {
             return redirect()->secure($request->getRequestUri());
         }
