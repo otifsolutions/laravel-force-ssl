@@ -11,8 +11,7 @@
     ],
     "autoload": {
     "psr-4": {
-        "OTIFSolutions\\ForceSSL\\": "src/",
-        "OTIFSolutions\\ForceSSL\\Middleware": "src/Http/Middleware/ForceSSL"
+        "OTIFSolutions\\ForceSSL\\": "src/"
     }
 },
     "extra": {
